@@ -4,6 +4,7 @@
 [![LinkedIn][linkedin]][linkedin_link] [![AUR][aur]][aur_link] [![Codeforces][cf]][cf_link]
 
 ![Presentación animada][typing]
+
 Desarrollador de software con enfoque en compiladores a bajo nivel.
 He participado en dos ediciones de ICPC representando a la Universidad de San Carlos de Guatemala.
 Dispongo de buenas habilidades en solución de problemas algorítmicos.
