@@ -24,8 +24,6 @@ Dispongo de buenas habilidades en solución de problemas algorítmicos.
 
 ![Serpiente comiéndose las contribuciones][snake]
 
-![Visitas][visitas]
-
 </div>
 
 ![Pie de página][footer]
@@ -36,7 +34,6 @@ Dispongo de buenas habilidades en solución de problemas algorítmicos.
 [typing]: https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=20&pause=1200&color=C084FC&vCenter=true&width=560&lines=Compiladores+a+bajo+nivel+;Dos+ediciones+de+ICPC+con+la+USAC;C%2B%2B+%C2%B7+Rust+%C2%B7+algoritmos
 [streak]: https://streak-stats.demolab.com/?user=Angelius6573&locale=es&background=1A0B2E&border=A855F7&stroke=7C3AED&ring=A855F7&fire=E879F9&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=E879F9&sideLabels=D8B4FE&dates=A78BFA
 [snake]: https://raw.githubusercontent.com/Angelius6573/Angelius6573/output/snake-morado.svg
-[visitas]: https://komarev.com/ghpvc/?username=Angelius6573&style=plastic&color=7c3aed&label=Visitas
 
 <!-- Shields -->
 [linkedin]: https://img.shields.io/badge/LinkedIn-0A66C2?style=plastic&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTYgMjU2Ij48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMjE4IDIxOGgtMzh2LTU5YzAtMTQgMC0zMy0yMC0zM3MtMjMgMTYtMjMgMzJ2NjBIOTlWOTZoMzZ2MTdoMWE0MCA0MCAwIDAgMSAzNi0yMGMzOCAwIDQ2IDI1IDQ2IDU4ek01NyA3OWEyMiAyMiAwIDEgMSAwLTQ0IDIyIDIyIDAgMCAxIDAgNDRtMTkgMTM5SDM4Vjk2aDM4ek0yMzcgMEgxOUM5IDAgMCA4IDAgMTh2MjIwYzAgMTAgOSAxOCAxOSAxOGgyMThjMTAgMCAxOS04IDE5LTE4VjE4YzAtMTAtOS0xOC0xOS0xOCIvPjwvc3ZnPgo=
