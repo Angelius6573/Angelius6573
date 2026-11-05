@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="245" viewBox="0 0 350 245">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#1a0b2e"/><stop offset="1" stop-color="#2d1155"/>
+  </linearGradient>
+  <linearGradient id="border" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#a855f7"/><stop offset="1" stop-color="#e879f9"/>
+  </linearGradient>
+</defs>
+<style>
+  .title { font: 700 19px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #e9d5ff; }
+  .label { font: 400 14px 'Segoe UI', Ubuntu, sans-serif; fill: #d8b4fe; }
+  .value { font: 700 14px 'Segoe UI', Ubuntu, sans-serif; fill: #ffffff; }
+  .small { font: 400 12px 'Segoe UI', Ubuntu, sans-serif; fill: #d8b4fe; }
+  .row { opacity: 0; animation: fadeIn .6s ease-out forwards; }
+  .bar { transform: scaleX(0); transform-box: fill-box; transform-origin: left;
+          animation: grow 1.2s cubic-bezier(.2,.8,.2,1) forwards; }
+  .glow { animation: pulse 3s ease-in-out infinite; }
+  .spin { transform-box: fill-box; transform-origin: center; animation: spin 8s linear infinite; }
+  @keyframes fadeIn { from { opacity: 0; transform: translateX(-12px); } to { opacity: 1; transform: none; } }
+  @keyframes grow { to { transform: scaleX(1); } }
+  @keyframes pulse { 0%,100% { stroke-opacity: .55; } 50% { stroke-opacity: 1; } }
+  @keyframes spin { to { transform: rotate(360deg); } }
+</style>
+<rect x="1" y="1" width="348" height="243" rx="12" fill="url(#bg)"/>
+<rect class="glow" x="1" y="1" width="348" height="243" rx="12" fill="none" stroke="url(#border)" stroke-width="2"/>
+<text class="title" x="25" y="38">Lenguajes más usados</text>
+<rect x="25" y="55" width="300" height="10" rx="5" fill="#3b1d63"/>
+<rect class="bar" style="animation-delay:0ms" x="25.0" y="55" width="172.4" height="10" fill="#a855f7"/>
+<rect class="bar" style="animation-delay:120ms" x="197.4" y="55" width="69.6" height="10" fill="#e879f9"/>
+<rect class="bar" style="animation-delay:240ms" x="267.0" y="55" width="29.8" height="10" fill="#7c3aed"/>
+<rect class="bar" style="animation-delay:360ms" x="296.8" y="55" width="19.9" height="10" fill="#c084fc"/>
+<rect class="bar" style="animation-delay:480ms" x="316.7" y="55" width="8.3" height="10" fill="#f0abfc"/>
+<g class="row" style="animation-delay:400ms"><circle cx="30" cy="93" r="5" fill="#a855f7"/><text class="label" x="41" y="98">C++</text><text class="small" x="165" y="98" text-anchor="end">57.5%</text></g>
+<g class="row" style="animation-delay:520ms"><circle cx="185" cy="93" r="5" fill="#e879f9"/><text class="label" x="196" y="98">C</text><text class="small" x="320" y="98" text-anchor="end">23.2%</text></g>
+<g class="row" style="animation-delay:640ms"><circle cx="30" cy="123" r="5" fill="#7c3aed"/><text class="label" x="41" y="128">Rust</text><text class="small" x="165" y="128" text-anchor="end">9.9%</text></g>
+<g class="row" style="animation-delay:760ms"><circle cx="185" cy="123" r="5" fill="#c084fc"/><text class="label" x="196" y="128">TypeScript</text><text class="small" x="320" y="128" text-anchor="end">6.6%</text></g>
+<g class="row" style="animation-delay:880ms"><circle cx="30" cy="153" r="5" fill="#f0abfc"/><text class="label" x="41" y="158">Shell</text><text class="small" x="165" y="158" text-anchor="end">2.8%</text></g>
+</svg>
