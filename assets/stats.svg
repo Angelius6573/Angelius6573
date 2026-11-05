@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="245" viewBox="0 0 450 245">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#1a0b2e"/><stop offset="1" stop-color="#2d1155"/>
+  </linearGradient>
+  <linearGradient id="border" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#a855f7"/><stop offset="1" stop-color="#e879f9"/>
+  </linearGradient>
+</defs>
+<style>
+  .title { font: 700 19px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #e9d5ff; }
+  .label { font: 400 14px 'Segoe UI', Ubuntu, sans-serif; fill: #d8b4fe; }
+  .value { font: 700 14px 'Segoe UI', Ubuntu, sans-serif; fill: #ffffff; }
+  .small { font: 400 12px 'Segoe UI', Ubuntu, sans-serif; fill: #d8b4fe; }
+  .row { opacity: 0; animation: fadeIn .6s ease-out forwards; }
+  .bar { transform: scaleX(0); transform-box: fill-box; transform-origin: left;
+          animation: grow 1.2s cubic-bezier(.2,.8,.2,1) forwards; }
+  .glow { animation: pulse 3s ease-in-out infinite; }
+  .spin { transform-box: fill-box; transform-origin: center; animation: spin 8s linear infinite; }
+  @keyframes fadeIn { from { opacity: 0; transform: translateX(-12px); } to { opacity: 1; transform: none; } }
+  @keyframes grow { to { transform: scaleX(1); } }
+  @keyframes pulse { 0%,100% { stroke-opacity: .55; } 50% { stroke-opacity: 1; } }
+  @keyframes spin { to { transform: rotate(360deg); } }
+</style>
+<rect x="1" y="1" width="448" height="243" rx="12" fill="url(#bg)"/>
+<rect class="glow" x="1" y="1" width="448" height="243" rx="12" fill="none" stroke="url(#border)" stroke-width="2"/>
+<text class="title" x="25" y="38">Estadísticas de Angelius6573 · 2026</text>
+<g class="row" style="animation-delay:150ms"><path transform="translate(25 58)" d="M8 .5l2.3 4.7 5.2.8-3.8 3.6.9 5.2L8 12.3 3.4 14.8l.9-5.2L.5 6l5.2-.8z" fill="#c084fc"/><text class="label" x="52" y="70">Estrellas totales:</text><text class="value" x="250" y="70">3</text></g>
+<g class="row" style="animation-delay:300ms"><path transform="translate(25 86)" d="M8 4.5a3.5 3.5 0 1 1 0 7 3.5 3.5 0 0 1 0-7zM0 7h4.6v2H0zm11.4 0H16v2h-4.6z" fill="#c084fc"/><text class="label" x="52" y="98">Commits (último año):</text><text class="value" x="250" y="98">142</text></g>
+<g class="row" style="animation-delay:450ms"><path transform="translate(25 114)" d="M1 1h4v4H1zm5 0h4v4H6zm5 0h4v4h-4zM1 6h4v4H1zm5 0h4v4H6zm5 0h4v4h-4zM1 11h4v4H1zm5 0h4v4H6z" fill="#c084fc"/><text class="label" x="52" y="126">Contribuciones totales:</text><text class="value" x="250" y="126">318</text></g>
+<g class="row" style="animation-delay:600ms"><path transform="translate(25 142)" d="M4 1a2 2 0 0 1 1 3.7v6.6A2 2 0 1 1 3 11.3V4.7A2 2 0 0 1 4 1zm8 10.3V6a2 2 0 0 0-2-2H8.5V2L5.5 5l3 3V6H10v5.3a2 2 0 1 0 2 0z" fill="#c084fc"/><text class="label" x="52" y="154">Pull requests:</text><text class="value" x="250" y="154">7</text></g>
+<g class="row" style="animation-delay:750ms"><path transform="translate(25 170)" d="M8 1a7 7 0 1 1 0 14A7 7 0 0 1 8 1zm0 2a5 5 0 1 0 0 10A5 5 0 0 0 8 3zm0 3a2 2 0 1 1 0 4 2 2 0 0 1 0-4z" fill="#c084fc"/><text class="label" x="52" y="182">Issues:</text><text class="value" x="250" y="182">4</text></g>
+<g class="row" style="animation-delay:900ms"><path transform="translate(25 198)" d="M3 1h10a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2zm0 10a1 1 0 0 0 0 2h9v-2z" fill="#c084fc"/><text class="label" x="52" y="210">Repositorios:</text><text class="value" x="250" y="210">3</text></g>
+<g class="row" style="animation-delay:300ms"><circle cx="370" cy="125" r="50" fill="none" stroke="#3b1d63" stroke-width="7"/><circle class="spin" cx="370" cy="125" r="50" fill="none" stroke="url(#border)" stroke-width="7" stroke-linecap="round" stroke-dasharray="219.9 94.2"/><text class="title" x="370" y="132" text-anchor="middle">318</text><text class="small" x="370" y="199" text-anchor="middle">contribuciones</text></g>
+</svg>
