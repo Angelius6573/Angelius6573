@@ -1,7 +1,7 @@
 ![Cabecera][header]
 
 # Hey! soy Angel ^_^
-[![LinkedIn][linkedin]][linkedin_link] [![AUR][aur]][aur_link] [![Codeforces][cf]][cf_link]
+[![LinkedIn][linkedin]][linkedin_link] [![AUR][aur]][aur_link] [![Codeforces][cf]][cf_link] [![Instagram][IG]][IG_link]
 
 ![Presentación animada][typing]
 
@@ -42,3 +42,5 @@ Dispongo de buenas habilidades en solución de problemas algorítmicos.
 [aur_link]: https://aur.archlinux.org/account/Angelius6573
 [cf]: https://img.shields.io/badge/ICPC-FFFFFF?style=plastic&label=Codeforces&labelColor=B22C1B&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii00MCAtODQgNDg0IDQ4NCI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJhIj48c3RvcCBzdG9wLWNvbG9yPSIjZjdjNTNmIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZmNkOTczIi8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImIiPjxzdG9wIHN0b3AtY29sb3I9IiMxNTgxYzUiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMxYzk4ZDQiLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0iYyI+PHN0b3Agc3RvcC1jb2xvcj0iI2IyMWUyNiIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2MyMWMyNCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9Ii00MCIgeT0iLTg0IiB3aWR0aD0iNDg0IiBoZWlnaHQ9IjQ4NCIgcng9IjcwIiBmaWxsPSIjZmZmIi8+PHJlY3QgeT0iODkiIHdpZHRoPSIxMDgiIGhlaWdodD0iMjI3IiByeD0iMjIiIGZpbGw9InVybCgjYSkiLz48cmVjdCB4PSIxNDgiIHdpZHRoPSIxMDgiIGhlaWdodD0iMzE2IiByeD0iMjIiIGZpbGw9InVybCgjYikiLz48cmVjdCB4PSIyOTYiIHk9IjEyMyIgd2lkdGg9IjEwOCIgaGVpZ2h0PSIxOTMiIHJ4PSIyMiIgZmlsbD0idXJsKCNjKSIvPjwvc3ZnPgo=
 [cf_link]: https://codeforces.com/profile/Angelius6573
+[IG]: https://img.shields.io/badge/Angel%20Herrera%20-%20000000?style=plastic&logo=instagram&logoColor=000000&label=Instagram&labelColor=FFFFFF&color=A74EDE
+[IG_link]: https://www.instagram.com/angel.herrera.dev/
